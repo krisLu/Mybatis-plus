@@ -35,6 +35,16 @@ MyBatis下载地址: https://github.com/mybatis/mybatis-3
 	- 存放的位置是src/main/resources目录下
 ####	- 日志的级别：
 	- FATAL(致命)>ERROR(错误)>WARN(警告)>INFO(信息)>DEBUG(调试) 从左到右打印的内容越来越详细
+### 核心配置文件详解
+>核心配置文件中的标签必须按照固定的顺序(有的标签可以不写，但顺序一定不能乱)：
+properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapperFactory、reflectorFactory、plugins、environments、databaseIdProvider、mappers
+# MyBatis获取参数值的两种方式（重点）
+- MyBatis获取参数值的两种方式：${}和#{}  
+- ${}的本质就是字符串拼接，#{}的本质就是占位符赋值  
+- ${}使用字符串拼接的方式拼接sql，若为字符串类型或日期类型的字段进行赋值时，需要手动加单引号；但是#{}使用占位符赋值的方式拼接sql，此时为字符串类型或日期类型的字段进行赋值时，可以自动添加单引号
+## 单个字面量类型的参数
+- 若mapper接口中的方法参数为单个的字面量类型，此时可以使用\${}和#{}以任意的名称（最好见名识意）获取参数的值，注意${}需要手动加单引号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDQ1MjA1NywtNzQ1MDA3NzMzXX0=
+eyJoaXN0b3J5IjpbMTI5MTY5ODE4LDIwMzA0NTIwNTcsLTc0NT
+AwNzczM119
 -->
