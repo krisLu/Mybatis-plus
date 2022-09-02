@@ -33,11 +33,12 @@ MyBatis下载地址: https://github.com/mybatis/mybatis-3
 2. 加入log4j的配置文件
 	- log4j的配置文件名为log4j.xml，
 	- 存放的位置是src/main/resources目录下
-	-`xml
-	<?xml version="1.0" encoding="UTF-8" ?>
+	- xml
+	 <?xml version="1.0" encoding="UTF-8" ?>
 	<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
-	<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
-	    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+	- <log4j:configuration   
+	- xmlns:log4j="http://jakarta.apache.org/log4j/">
+	- 	    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
 	        <param name="Encoding" value="UTF-8" />
 	        <layout class="org.apache.log4j.PatternLayout">
 				<param name="ConversionPattern" value="%-5p %d{MM-dd HH:mm:ss,SSS} %m (%F:%L) \n" />
@@ -53,10 +54,10 @@ MyBatis下载地址: https://github.com/mybatis/mybatis-3
 	        <level value="debug" />
 	        <appender-ref ref="STDOUT" />
 	    </root>
-	</log4j:configuration>
+	</log4j:configuration>`
 	
 ####	- 日志的级别：
 	- FATAL(致命)>ERROR(错误)>WARN(警告)>INFO(信息)>DEBUG(调试) 从左到右打印的内容越来越详细
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODk2NDY5MCwtNzQ1MDA3NzMzXX0=
+eyJoaXN0b3J5IjpbMTI0NTU1NjU2NywtNzQ1MDA3NzMzXX0=
 -->
