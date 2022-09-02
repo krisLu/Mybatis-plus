@@ -20,6 +20,21 @@ iBatis一词来源于"internet"和" abatis"的组合，是一个基于Java的持
 ## 3、MyBatis下载
 
 MyBatis下载地址: https://github.com/mybatis/mybatis-3
+### 加入log4j日志功能
+1. 加入依赖
+	```xml
+	<!-- log4j日志 -->
+	<dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.17</version>
+	</dependency>
+	```
+2. 加入log4j的配置文件
+	- log4j的配置文件名为log4j.xml，
+	- 存放的位置是src/main/resources目录下
+####	- 日志的级别：
+	- FATAL(致命)>ERROR(错误)>WARN(警告)>INFO(信息)>DEBUG(调试) 从左到右打印的内容越来越详细
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NjkxOTA4LC03NDUwMDc3MzNdfQ==
+eyJoaXN0b3J5IjpbMjAzMDQ1MjA1NywtNzQ1MDA3NzMzXX0=
 -->
