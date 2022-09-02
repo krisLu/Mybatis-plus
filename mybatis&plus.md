@@ -44,7 +44,8 @@ properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapp
 - ${}使用字符串拼接的方式拼接sql，若为字符串类型或日期类型的字段进行赋值时，需要手动加单引号；但是#{}使用占位符赋值的方式拼接sql，此时为字符串类型或日期类型的字段进行赋值时，可以自动添加单引号
 ## 单个字面量类型的参数
 - 若mapper接口中的方法参数为单个的字面量类型，此时可以使用\${}和#{}以任意的名称（最好见名识意）获取参数的值，注意${}需要手动加单引号
+-  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTY5ODE4LDIwMzA0NTIwNTcsLTc0NT
-AwNzczM119
+eyJoaXN0b3J5IjpbLTExMTY0OTgyNDEsMTI5MTY5ODE4LDIwMz
+A0NTIwNTcsLTc0NTAwNzczM119
 -->
