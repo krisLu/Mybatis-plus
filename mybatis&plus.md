@@ -11,7 +11,7 @@ iBatis一词来源于"internet"和" abatis"的组合，是一个基于Java的持
 
 1) MyBatis是支持定制化SQL、存储过程以及高级映射的优秀的持久层框架
 
-**2) MyBatis 避免了几乎所有的JDBC代码和手动设置参数以及获取结果集**
+2) MyBatis 避免了几乎所有的JDBC代码和手动设置参数以及获取结果集**
 
 3) MyBatis可以使用简单的XML或注解用于配置和原始映射，将接口和Java的POJO(Plain Old Java Objects，普通的Java对象）映射成数据库中的记录
 
@@ -33,7 +33,7 @@ MyBatis下载地址: https://github.com/mybatis/mybatis-3
 2. 加入log4j的配置文件
 	- log4j的配置文件名为log4j.xml，
 	- 存放的位置是src/main/resources目录下
-	- `<?xml version="1.0" encoding="UTF-8" ?>
+	- <?xml version="1.0" encoding="UTF-8" ?>
 	<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 	<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 	    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
@@ -52,9 +52,9 @@ MyBatis下载地址: https://github.com/mybatis/mybatis-3
 	        <level value="debug" />
 	        <appender-ref ref="STDOUT" />
 	    </root>
-	</log4j:configuration>`
+	</log4j:configuration>
 ####	- 日志的级别：
 	- FATAL(致命)>ERROR(错误)>WARN(警告)>INFO(信息)>DEBUG(调试) 从左到右打印的内容越来越详细
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNjcyMDksLTc0NTAwNzczM119
+eyJoaXN0b3J5IjpbNzMxNjE5NjQ3LC03NDUwMDc3MzNdfQ==
 -->
