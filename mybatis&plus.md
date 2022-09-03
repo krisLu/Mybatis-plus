@@ -329,6 +329,8 @@ properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapp
 - MyBatis获取参数值的两种方式：${}和#{}  
 - ${}的本质就是字符串拼接，#{}的本质就是占位符赋值  
 - ${}使用字符串拼接的方式拼接sql，若为字符串类型或日期类型的字段进行赋值时，需要手动加单引号；但是#{}使用占位符赋值的方式拼接sql，此时为字符串类型或日期类型的字段进行赋值时，可以自动添加单引号
+- ${} : 本质字符串拼接，存在sql注入问题
+- #{}： 本质是占位符赋值。
 ## 单个字面量类型的参数
 - 若mapper接口中的方法参数为单个的字面量类型，此时可以使用\${}和#{}以任意的名称（最好见名识意）获取参数的值，注意${}需要手动加单引号
 ```xml
@@ -1517,7 +1519,7 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjU3MDMxOCw1NTg4NzcyNzgsLTExMT
+eyJoaXN0b3J5IjpbLTI2Mzg5Nzk4MSw1NTg4NzcyNzgsLTExMT
 Y0OTgyNDEsMTI5MTY5ODE4LDIwMzA0NTIwNTcsLTc0NTAwNzcz
 M119
 -->
