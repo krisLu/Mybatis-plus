@@ -332,7 +332,7 @@ properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapp
 - ${} : 本质字符串拼接，存在sql注入问题
 - #{}： 本质是占位符赋值。
 ## 单个字面量类型的参数
-- 若mapper接口中的方法参数为单个的字面量类型，此时可以使用\${}和#{}以任意的名称（最好见名识意）获取参数的值，注意${}需要手动加单引号
+- 若mapper接口中的方法参数为单个的字面量类型，此时可以使用\${}和#{}以任意的名称（最好见名识意）获取参数的值，注意${}**需要手动加单引号**
 ```xml
 <!--User getUserByUsername(String username);-->
 <select id="getUserByUsername" resultType="User">
@@ -1519,7 +1519,7 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzg5Nzk4MSw1NTg4NzcyNzgsLTExMT
-Y0OTgyNDEsMTI5MTY5ODE4LDIwMzA0NTIwNTcsLTc0NTAwNzcz
-M119
+eyJoaXN0b3J5IjpbMTMzNTYyNTUzOSwtMjYzODk3OTgxLDU1OD
+g3NzI3OCwtMTExNjQ5ODI0MSwxMjkxNjk4MTgsMjAzMDQ1MjA1
+NywtNzQ1MDA3NzMzXX0=
 -->
