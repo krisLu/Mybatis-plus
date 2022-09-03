@@ -9,8 +9,8 @@
 3. MyBatis可以使用简单的XML或注解用于配置和原始映射，将接口和Java的POJO（Plain Old Java Objects，普通的Java对象）映射成数据库中的记录
 4. MyBatis 是一个 半自动的ORM（Object Relation Mapping）框架
 ## MyBatis下载
-- [MyBatis下载地址](https://github.com/mybatis/mybatis-3)
-- ![](Resources/MyBatis下载.png)
+- [MyBatis下载地址(https://github.com/mybatis/mybatis-3)
+ ![](Resources/MyBatis下载.png)
 ## 和其它持久化层技术对比
 - JDBC  
 	- SQL 夹杂在Java代码中耦合度高，导致硬编码内伤  
@@ -1517,6 +1517,7 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4ODc3Mjc4LC0xMTE2NDk4MjQxLDEyOT
-E2OTgxOCwyMDMwNDUyMDU3LC03NDUwMDc3MzNdfQ==
+eyJoaXN0b3J5IjpbMTM0NjU3MDMxOCw1NTg4NzcyNzgsLTExMT
+Y0OTgyNDEsMTI5MTY5ODE4LDIwMzA0NTIwNTcsLTc0NTAwNzcz
+M119
 -->
