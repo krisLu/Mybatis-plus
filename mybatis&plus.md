@@ -279,10 +279,6 @@ properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapp
     </mappers>
 </configuration>
 ```
-- ![](Resources/mapper接口和mapper映射文件在同一包下.png)
-# 默认的类型别名
-![](Resources/默认的类型别名1.png)
-![](Resources/默认的类型别名2.png)
 # MyBatis的增删改查
 1. 添加
 	```xml
@@ -1519,7 +1515,7 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTYyNTUzOSwtMjYzODk3OTgxLDU1OD
-g3NzI3OCwtMTExNjQ5ODI0MSwxMjkxNjk4MTgsMjAzMDQ1MjA1
-NywtNzQ1MDA3NzMzXX0=
+eyJoaXN0b3J5IjpbMTk0NTIwODgzNCwxMzM1NjI1NTM5LC0yNj
+M4OTc5ODEsNTU4ODc3Mjc4LC0xMTE2NDk4MjQxLDEyOTE2OTgx
+OCwyMDMwNDUyMDU3LC03NDUwMDc3MzNdfQ==
 -->
