@@ -1119,7 +1119,7 @@ public void getEmpByChoose() {
 	1. 不同的SqlSession对应不同的一级缓存  
 	2. 同一个SqlSession但是查询条件不同
 	3. 同一个SqlSession两次查询期间执行了任何一次增删改操作
-	4. 同一个SqlSession两次查询期间手动清空了缓存（cache方法）
+	4. 同一个SqlSession两次查询期间手动清空了缓存（clearCache方法）
 ## MyBatis的二级缓存
 - 二级缓存是SqlSessionFactory级别，通过同一个SqlSessionFactory创建的SqlSession查询的结果会被缓存；此后若再次执行相同的查询语句，结果就会从缓存中获取  
 - 二级缓存开启的条件
@@ -1515,8 +1515,8 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MTg2MzYzLC0yMDcyNjc2NTQ4LDE5ND
-UyMDg4MzQsMTMzNTYyNTUzOSwtMjYzODk3OTgxLDU1ODg3NzI3
-OCwtMTExNjQ5ODI0MSwxMjkxNjk4MTgsMjAzMDQ1MjA1NywtNz
-Q1MDA3NzMzXX0=
+eyJoaXN0b3J5IjpbMTkyNjU2NTc3OCwtMjA3MjY3NjU0OCwxOT
+Q1MjA4ODM0LDEzMzU2MjU1MzksLTI2Mzg5Nzk4MSw1NTg4Nzcy
+NzgsLTExMTY0OTgyNDEsMTI5MTY5ODE4LDIwMzA0NTIwNTcsLT
+c0NTAwNzczM119
 -->
