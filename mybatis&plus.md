@@ -1515,7 +1515,7 @@ public void testPageHelper() throws IOException {
 - navigatePages：导航分页的页码数  
 - navigatepageNums：导航分页的页码，\[1,2,3,4,5]
 
-# 一、MyBatis-Plus
+# MyBatis-Plus
 
 ## 1.简介
 
@@ -3064,8 +3064,8 @@ class TestDatasourceApplicationTests {
 
 感谢自己又坚持学习了一门课程：[https://www.oz6.cn/](https://www.oz6.cn/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgwMjA1OTAsMTkyNjU2NTc3OCwtMj
-A3MjY3NjU0OCwxOTQ1MjA4ODM0LDEzMzU2MjU1MzksLTI2Mzg5
-Nzk4MSw1NTg4NzcyNzgsLTExMTY0OTgyNDEsMTI5MTY5ODE4LD
-IwMzA0NTIwNTcsLTc0NTAwNzczM119
+eyJoaXN0b3J5IjpbMTUwNDY0NjEzMSwxOTI2NTY1Nzc4LC0yMD
+cyNjc2NTQ4LDE5NDUyMDg4MzQsMTMzNTYyNTUzOSwtMjYzODk3
+OTgxLDU1ODg3NzI3OCwtMTExNjQ5ODI0MSwxMjkxNjk4MTgsMj
+AzMDQ1MjA1NywtNzQ1MDA3NzMzXX0=
 -->
